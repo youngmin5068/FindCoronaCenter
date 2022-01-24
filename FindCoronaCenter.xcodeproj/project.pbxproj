@@ -14,6 +14,10 @@
 		FB78E954279EA432005A7639 /* FindCoronaCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E953279EA432005A7639 /* FindCoronaCenterTests.swift */; };
 		FB78E95E279EA432005A7639 /* FindCoronaCenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E95D279EA432005A7639 /* FindCoronaCenterUITests.swift */; };
 		FB78E960279EA432005A7639 /* FindCoronaCenterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E95F279EA432005A7639 /* FindCoronaCenterUITestsLaunchTests.swift */; };
+		FB78E96E279EA967005A7639 /* CenterAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E96D279EA967005A7639 /* CenterAPIResponse.swift */; };
+		FB78E970279EA992005A7639 /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E96F279EA992005A7639 /* Center.swift */; };
+		FB78E974279EAC27005A7639 /* CenterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E973279EAC27005A7639 /* CenterAPI.swift */; };
+		FB78E976279EAF37005A7639 /* CenterNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E975279EAF37005A7639 /* CenterNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		FB78E959279EA432005A7639 /* FindCoronaCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCoronaCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB78E95D279EA432005A7639 /* FindCoronaCenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCoronaCenterUITests.swift; sourceTree = "<group>"; };
 		FB78E95F279EA432005A7639 /* FindCoronaCenterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCoronaCenterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB78E96D279EA967005A7639 /* CenterAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPIResponse.swift; sourceTree = "<group>"; };
+		FB78E96F279EA992005A7639 /* Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
+		FB78E973279EAC27005A7639 /* CenterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPI.swift; sourceTree = "<group>"; };
+		FB78E975279EAF37005A7639 /* CenterNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,8 @@
 		FB78E936279EA42F005A7639 = {
 			isa = PBXGroup;
 			children = (
+				FB78E971279EAC0F005A7639 /* Network */,
+				FB78E96C279EA93C005A7639 /* Entites */,
 				FB78E941279EA42F005A7639 /* FindCoronaCenter */,
 				FB78E952279EA432005A7639 /* FindCoronaCenterTests */,
 				FB78E95C279EA432005A7639 /* FindCoronaCenterUITests */,
@@ -125,6 +135,24 @@
 				FB78E95F279EA432005A7639 /* FindCoronaCenterUITestsLaunchTests.swift */,
 			);
 			path = FindCoronaCenterUITests;
+			sourceTree = "<group>";
+		};
+		FB78E96C279EA93C005A7639 /* Entites */ = {
+			isa = PBXGroup;
+			children = (
+				FB78E96D279EA967005A7639 /* CenterAPIResponse.swift */,
+				FB78E96F279EA992005A7639 /* Center.swift */,
+			);
+			path = Entites;
+			sourceTree = "<group>";
+		};
+		FB78E971279EAC0F005A7639 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FB78E973279EAC27005A7639 /* CenterAPI.swift */,
+				FB78E975279EAF37005A7639 /* CenterNetwork.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB78E970279EA992005A7639 /* Center.swift in Sources */,
+				FB78E976279EAF37005A7639 /* CenterNetwork.swift in Sources */,
+				FB78E974279EAC27005A7639 /* CenterAPI.swift in Sources */,
 				FB78E945279EA42F005A7639 /* ContentView.swift in Sources */,
+				FB78E96E279EA967005A7639 /* CenterAPIResponse.swift in Sources */,
 				FB78E943279EA42F005A7639 /* FindCoronaCenterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
