@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FB78E943279EA42F005A7639 /* FindCoronaCenterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E942279EA42F005A7639 /* FindCoronaCenterApp.swift */; };
-		FB78E945279EA42F005A7639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E944279EA42F005A7639 /* ContentView.swift */; };
 		FB78E947279EA432005A7639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB78E946279EA432005A7639 /* Assets.xcassets */; };
 		FB78E94A279EA432005A7639 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB78E949279EA432005A7639 /* Preview Assets.xcassets */; };
 		FB78E954279EA432005A7639 /* FindCoronaCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E953279EA432005A7639 /* FindCoronaCenterTests.swift */; };
@@ -18,6 +17,13 @@
 		FB78E970279EA992005A7639 /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E96F279EA992005A7639 /* Center.swift */; };
 		FB78E974279EAC27005A7639 /* CenterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E973279EAC27005A7639 /* CenterAPI.swift */; };
 		FB78E976279EAF37005A7639 /* CenterNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E975279EAF37005A7639 /* CenterNetwork.swift */; };
+		FB78E978279EB414005A7639 /* SelectRegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E977279EB414005A7639 /* SelectRegionView.swift */; };
+		FB78E97A279EB437005A7639 /* SelectRegionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E979279EB437005A7639 /* SelectRegionViewModel.swift */; };
+		FB78E97C279EB931005A7639 /* SelectRegionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E97B279EB931005A7639 /* SelectRegionItem.swift */; };
+		FB78E97F279EBD8A005A7639 /* CenterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E97E279EBD8A005A7639 /* CenterRow.swift */; };
+		FB78E981279EBEB4005A7639 /* CenterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E980279EBEB4005A7639 /* CenterList.swift */; };
+		FB78E984279EC16A005A7639 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E983279EC16A005A7639 /* MapView.swift */; };
+		FB78E986279EC53B005A7639 /* CenterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78E985279EC53B005A7639 /* CenterDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,6 @@
 /* Begin PBXFileReference section */
 		FB78E93F279EA42F005A7639 /* FindCoronaCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindCoronaCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB78E942279EA42F005A7639 /* FindCoronaCenterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCoronaCenterApp.swift; sourceTree = "<group>"; };
-		FB78E944279EA42F005A7639 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB78E946279EA432005A7639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB78E949279EA432005A7639 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB78E94F279EA432005A7639 /* FindCoronaCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCoronaCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +57,13 @@
 		FB78E96F279EA992005A7639 /* Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
 		FB78E973279EAC27005A7639 /* CenterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPI.swift; sourceTree = "<group>"; };
 		FB78E975279EAF37005A7639 /* CenterNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterNetwork.swift; sourceTree = "<group>"; };
+		FB78E977279EB414005A7639 /* SelectRegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionView.swift; sourceTree = "<group>"; };
+		FB78E979279EB437005A7639 /* SelectRegionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionViewModel.swift; sourceTree = "<group>"; };
+		FB78E97B279EB931005A7639 /* SelectRegionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionItem.swift; sourceTree = "<group>"; };
+		FB78E97E279EBD8A005A7639 /* CenterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterRow.swift; sourceTree = "<group>"; };
+		FB78E980279EBEB4005A7639 /* CenterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterList.swift; sourceTree = "<group>"; };
+		FB78E983279EC16A005A7639 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FB78E985279EC53B005A7639 /* CenterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +94,8 @@
 		FB78E936279EA42F005A7639 = {
 			isa = PBXGroup;
 			children = (
-				FB78E971279EAC0F005A7639 /* Network */,
-				FB78E96C279EA93C005A7639 /* Entites */,
 				FB78E941279EA42F005A7639 /* FindCoronaCenter */,
+				FB78E948279EA432005A7639 /* Preview Content */,
 				FB78E952279EA432005A7639 /* FindCoronaCenterTests */,
 				FB78E95C279EA432005A7639 /* FindCoronaCenterUITests */,
 				FB78E940279EA42F005A7639 /* Products */,
@@ -104,10 +115,10 @@
 		FB78E941279EA42F005A7639 /* FindCoronaCenter */ = {
 			isa = PBXGroup;
 			children = (
+				FB78E96C279EA93C005A7639 /* Entites */,
+				FB78E971279EAC0F005A7639 /* Network */,
 				FB78E942279EA42F005A7639 /* FindCoronaCenterApp.swift */,
-				FB78E944279EA42F005A7639 /* ContentView.swift */,
 				FB78E946279EA432005A7639 /* Assets.xcassets */,
-				FB78E948279EA432005A7639 /* Preview Content */,
 			);
 			path = FindCoronaCenter;
 			sourceTree = "<group>";
@@ -115,6 +126,7 @@
 		FB78E948279EA432005A7639 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				FB78E97D279EBA81005A7639 /* Presentation */,
 				FB78E949279EA432005A7639 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -153,6 +165,28 @@
 				FB78E975279EAF37005A7639 /* CenterNetwork.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		FB78E97D279EBA81005A7639 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FB78E982279EC145005A7639 /* SelectRegion */,
+				FB78E97E279EBD8A005A7639 /* CenterRow.swift */,
+				FB78E980279EBEB4005A7639 /* CenterList.swift */,
+				FB78E983279EC16A005A7639 /* MapView.swift */,
+				FB78E985279EC53B005A7639 /* CenterDetailView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FB78E982279EC145005A7639 /* SelectRegion */ = {
+			isa = PBXGroup;
+			children = (
+				FB78E977279EB414005A7639 /* SelectRegionView.swift */,
+				FB78E979279EB437005A7639 /* SelectRegionViewModel.swift */,
+				FB78E97B279EB931005A7639 /* SelectRegionItem.swift */,
+			);
+			path = SelectRegion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,10 +320,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB78E970279EA992005A7639 /* Center.swift in Sources */,
+				FB78E984279EC16A005A7639 /* MapView.swift in Sources */,
+				FB78E97C279EB931005A7639 /* SelectRegionItem.swift in Sources */,
+				FB78E981279EBEB4005A7639 /* CenterList.swift in Sources */,
 				FB78E976279EAF37005A7639 /* CenterNetwork.swift in Sources */,
+				FB78E986279EC53B005A7639 /* CenterDetailView.swift in Sources */,
+				FB78E97F279EBD8A005A7639 /* CenterRow.swift in Sources */,
 				FB78E974279EAC27005A7639 /* CenterAPI.swift in Sources */,
-				FB78E945279EA42F005A7639 /* ContentView.swift in Sources */,
+				FB78E978279EB414005A7639 /* SelectRegionView.swift in Sources */,
 				FB78E96E279EA967005A7639 /* CenterAPIResponse.swift in Sources */,
+				FB78E97A279EB437005A7639 /* SelectRegionViewModel.swift in Sources */,
 				FB78E943279EA42F005A7639 /* FindCoronaCenterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,7 +490,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FindCoronaCenter/Preview Content\"";
 				DEVELOPMENT_TEAM = YHNY62HKYP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -479,7 +518,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FindCoronaCenter/Preview Content\"";
 				DEVELOPMENT_TEAM = YHNY62HKYP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
