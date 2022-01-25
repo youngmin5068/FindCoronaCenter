@@ -30,7 +30,7 @@ struct SelectRegionView: View {
                 .navigationTitle("코로나19 예방접종 센터")
             }
         }
-    }
+        }
   }
 }
 
